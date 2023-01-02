@@ -7,7 +7,7 @@ import {
   selectVisibleContacts,
 } from 'redux/selectors';
 import { fetchContacts } from 'redux/operations';
-import { ContactListItem } from '../ConctactListItem/ContactListItem';
+import { ContactListItem } from 'components/ContactListItem/ContactListItem';
 
 export const ContactList = () => {
   const dispatch = useDispatch();
